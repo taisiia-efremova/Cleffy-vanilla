@@ -13,7 +13,7 @@
     
     &:hover {
         transform: translateY(-0.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        box-shadow: 0 1rem 2rem rgba($color-font, .2);
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
             opacity: 0;
@@ -22,17 +22,13 @@
     
     &:active {
         transform: translateY(0.3rem);
-        box-shadow: 0 0.5rem 1rem rgba($color-black, .2);
+        box-shadow: 0 0.5rem 1rem rgba($color-font, .2);
     }
     
     &-white {
         background-color: white;
-        color: $color-gray-dark;
-        animation: moveInBottom 1s ease-out .75s;
-        animation-fill-mode: backwards;
-    &::after {
-        background-color: white;
-    }
+      
+        
     }
     
     &::after {

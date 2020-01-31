@@ -1,0 +1,41 @@
+.nav {
+    display:flex;
+    flex-direction: row;
+    background-color:$color-navigation;
+    &__logo-box{
+       background-color:red;
+       width: 20%;
+    //    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+}
+.menu {
+width: 90vw;
+
+&__itemlist {
+display: flex;
+justify-content: flex-end;
+}
+
+&__item  {
+    list-style-type:none;
+//    flex-direction: row;
+   
+   padding: 2rem;
+   background-color: brown;
+
+  
+}
+&__link {
+    
+    
+}
+
+}
+
+
+ 
+
+
